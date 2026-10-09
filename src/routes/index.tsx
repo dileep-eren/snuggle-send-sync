@@ -40,7 +40,7 @@ function Index() {
             Private one-to-one conversations that arrive the moment you hit send — and are still there when you come back.
           </p>
           <div className="mt-10 flex gap-3">
-            <Button asChild size="lg"><Link to="/chat">Open <Veyro></Veyro></Link></Button>
+            <Button asChild size="lg"><Link to="/chat">Open Veyro</Link></Button>
             <Button asChild size="lg" variant="outline"><Link to="/auth">Create account</Link></Button>
           </div>
         </section>
