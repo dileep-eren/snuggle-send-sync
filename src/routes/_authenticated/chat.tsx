@@ -17,10 +17,10 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/_authenticated/chat")({
   head: () => ({
     meta: [
-      { title: "Chats — Relay" },
-      { name: "description", content: "Your private Relay conversations." },
-      { property: "og:title", content: "Chats — Relay" },
-      { property: "og:description", content: "Your private Relay conversations." },
+      { title: "Chats — Veyro" },
+      { name: "description", content: "Your private Veyro conversations." },
+      { property: "og:title", content: "Chats — Veyro" },
+      { property: "og:description", content: "Your private Veyro conversations." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],
@@ -102,7 +102,7 @@ function ChatLayout() {
             <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-primary text-primary-foreground">
               <MessageCircle className="h-4 w-4" />
             </span>
-            Relay
+            Veyro
           </Link>
           <Button variant="ghost" size="icon" onClick={signOut} aria-label="Sign out" title="Sign out">
             <LogOut />

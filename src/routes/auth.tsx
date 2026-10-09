@@ -13,10 +13,10 @@ import { errorMessage } from "@/lib/chat";
 export const Route = createFileRoute("/auth")({
   head: () => ({
     meta: [
-      { title: "Sign in — Relay" },
-      { name: "description", content: "Sign in or create your Relay account to start private conversations." },
-      { property: "og:title", content: "Sign in — Relay" },
-      { property: "og:description", content: "Sign in or create your Relay account." },
+      { title: "Sign in — Veyro" },
+      { name: "description", content: "Sign in or create your Veyro account to start private conversations." },
+      { property: "og:title", content: "Sign in — Veyro" },
+      { property: "og:description", content: "Sign in or create your Veyro account." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],
@@ -101,7 +101,7 @@ function AuthPage() {
           <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-primary-foreground">
             <MessageCircle className="h-5 w-5" />
           </span>
-          Relay
+          Veyro
         </Link>
         <div className="rounded-3xl border bg-card p-6 shadow-soft sm:p-8">
           {confirmSent ? (

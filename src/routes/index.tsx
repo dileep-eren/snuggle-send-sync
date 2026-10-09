@@ -5,9 +5,9 @@ import { MessageCircle, Lock, Zap } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Relay — private, real-time messaging" },
-      { name: "description", content: "Relay is a fast, private one-to-one chat app with instant delivery and persistent history." },
-      { property: "og:title", content: "Relay — private, real-time messaging" },
+      { title: "Veyro — private, real-time messaging" },
+      { name: "description", content: "Veyro is a fast, private one-to-one chat app with instant delivery and persistent history." },
+      { property: "og:title", content: "Veyro — private, real-time messaging" },
       { property: "og:description", content: "Instant one-to-one conversations with persistent history." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -25,7 +25,7 @@ function Index() {
             <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
               <MessageCircle className="h-4 w-4" />
             </span>
-            Relay
+            Veyro
           </div>
           <Button asChild variant="ghost"><Link to="/auth">Sign in</Link></Button>
         </header>
@@ -40,7 +40,7 @@ function Index() {
             Private one-to-one conversations that arrive the moment you hit send — and are still there when you come back.
           </p>
           <div className="mt-10 flex gap-3">
-            <Button asChild size="lg"><Link to="/chat">Open Relay</Link></Button>
+            <Button asChild size="lg"><Link to="/chat">Open <Veyro></Veyro></Link></Button>
             <Button asChild size="lg" variant="outline"><Link to="/auth">Create account</Link></Button>
           </div>
         </section>
