@@ -108,7 +108,7 @@ export function initials(name?: string | null) {
 }
 
 const avatarTones = ["bg-chart-1", "bg-chart-2", "bg-chart-3", "bg-chart-4", "bg-chart-5"];
-export function avatarTone(id?: string) {
+export function avatarTone(id?: string | undefined) {
   if (!id) return avatarTones[0];
   let h = 0;
   for (const c of id) h = (h * 31 + c.charCodeAt(0)) >>> 0;
